@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  # Ejercicio 5:
-  # Namespace para aplicaciones del laboratorio.
-  name: apps
