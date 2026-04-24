@@ -1,9 +1,0 @@
-## Introducción al Tema 3: Orquestación con Kubernetes
-
-En el tema anterior aprendiste a levantar y coordinar varios servicios con Docker Compose, lo que resulta muy útil para desarrollo local y laboratorios. Sin embargo, cuando una aplicación necesita escalar, mantenerse disponible, actualizarse de forma controlada o ejecutarse en varias máquinas, Docker Compose deja de ser suficiente. Es en ese punto donde aparece Kubernetes como plataforma de orquestación de contenedores.
-
-Kubernetes permite definir de forma declarativa cómo debe ejecutarse una aplicación, cuántas réplicas debe tener, cómo se expone en red y cómo debe reaccionar el sistema si un contenedor o un nodo falla. Su objetivo no es solo ejecutar contenedores, sino mantener un estado deseado de forma continua, automatizando tareas que en un entorno manual resultarían complejas y frágiles.
-
-En este tema trabajarás con k3s, una distribución ligera de Kubernetes ideal para laboratorio y formación. Aprenderás los objetos mínimos necesarios para empezar, como Pod, Deployment, Service, Ingress y Namespace, y practicarás el flujo básico de despliegue con `kubectl apply`, validación del estado del clúster y revisión de logs. El objetivo no es profundizar en todos los detalles de Kubernetes, sino adquirir una base sólida para entender cómo se despliega y opera un stack de microservicios en un entorno orquestado.
-
-Última modificación: domingo, 22 de marzo de 2026, 21:56
